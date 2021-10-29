@@ -34,14 +34,14 @@ function clamp(val, min, max) {
   
 setInterval(loop, 12);
 
-function addEventListener("keydown", function(e) {
+addEventListener("keydown", function(e) {
  
  if(e.key == "s")
     controls.down = true;
   
 });
 
-function addEventListener("keyup", function(e) {
+addEventListener("keyup", function(e) {
  
  if(e.key == "s")
    controls.down = false;
