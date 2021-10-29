@@ -18,7 +18,7 @@ function loop() {
   g.fillStyle = "#ffffff";
   g.fillRect(0, 0, 800, 600);
   
-  g.fillStyle = "#0";
+  g.fillStyle = "#909090";
   g.fillRect(x, y, 32, 32);
   
 }
