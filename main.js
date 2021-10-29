@@ -19,7 +19,7 @@ function loop() {
   g.fillRect(0, 0, 800, 600);
   
   g.fillStyle = "#0";
-  g.fillRect(0, 0, 32, 32);
+  g.fillRect(x, y, 32, 32);
   
 }
 
