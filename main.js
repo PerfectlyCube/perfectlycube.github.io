@@ -6,15 +6,6 @@ let x = 0, y = 0;
 
 function loop() {
  
-  x += velX;
-  y += velY;
- 
-  velX += speed/drag;
-  velX = clamp(velX, -speed, speed);
- 
-  velY += speed/drag;
-  velY = clamp(velY, -speed, speed);
- 
   g.fillStyle = "#ffffff";
   g.fillRect(0, 0, 800, 600);
   
@@ -30,3 +21,16 @@ function clamp(val, min, max) {
 }
   
 setInterval(loop, 12);
+
+function addEventListener("keydown", function(e) {
+ 
+ if(e.key == "s")
+    y += 4;
+  
+});
+
+function addEventListener("keyup", function(e) {
+ 
+ 
+ 
+});
