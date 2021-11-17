@@ -8,7 +8,8 @@ export let down = false,
 
 export let forward = 0.0, strafe = 0.0;
 
-let mods = []
+let mods = [new SpeedMod()]
+let player = new Player(10, 10);
 
 function update() {
 
@@ -29,3 +30,5 @@ export function updateMod(me) {
   }
 
 }
+
+setInterval(update, 12);
